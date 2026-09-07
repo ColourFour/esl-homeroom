@@ -8,6 +8,8 @@ activities = json.loads((ROOT / 'content/activities.json').read_text())
 
 
 def page(title, content, prefix='', data=None, page_type=''):
+    photo_credit = ('<span class="photo-credit">Taihang Mountains: <a href="https://commons.wikimedia.org/wiki/File:Taihang_Mountains_%E5%A4%AA%E8%A1%8C%E5%B1%B1_-_panoramio.jpg">SIMPLE / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · resized and cropped for display</span>' if page_type == 'home' else '')
+    document_title = 'Taihang House Activities' if title == 'Activities' else f'{esc(title)} | Taihang House Activities'
     embedded = '' if data is None else '<script id="activity-data" type="application/json">' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + '</script>'
     return f'''<!doctype html>
 <html lang="en">
@@ -15,8 +17,8 @@ def page(title, content, prefix='', data=None, page_type=''):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Simple English activities for a 20-minute homeroom. Prompts for the board, clear instructions for teachers, and enough variety to use them again.">
-<meta name="theme-color" content="#263d49">
-<title>{esc(title)} | Homeroom English</title>
+<meta name="theme-color" content="#174e43">
+<title>{document_title}</title>
 <link rel="stylesheet" href="{prefix}assets/style.css">
 {embedded}
 <script src="{prefix}assets/app.js" defer></script>
@@ -24,11 +26,11 @@ def page(title, content, prefix='', data=None, page_type=''):
 <body data-page="{page_type}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
-<a class="brand" href="{prefix}index.html">Homeroom English<span>Activities for the start of the day</span></a>
+<a class="brand" href="{prefix}index.html">Taihang House Activities</a>
 <nav aria-label="Main navigation"><a href="{prefix}index.html">Activities</a><a href="{prefix}tutorial.html">Teacher notes</a></nav>
 </header>
 {content}
-<footer class="site-footer"><span>English · 20-minute homeroom</span><a href="{prefix}tutorial.html">A few notes on running these</a></footer>
+<footer class="site-footer"><span>Taihang House · 20-minute activities</span><a href="{prefix}tutorial.html">A few notes on running these</a>{photo_credit}</footer>
 </body>
 </html>'''
 
@@ -49,12 +51,12 @@ for a in activities:
 categories = ['All activities'] + list(dict.fromkeys(a['kind'] for a in activities))
 filters = ''.join(f'<button class="filter" data-filter="{esc(c)}" aria-pressed="{str(i == 0).lower()}">{esc(c)}</button>' for i, c in enumerate(categories))
 home = f'''<main id="main" class="home">
-<section class="welcome"><div><p class="eyebrow">Speaking, listening and a reason to wake up</p><h1>English for homeroom.</h1><p>These are short activities for the first 20 minutes of the day. Pick one, read the setup and put the prompt on screen. The aim is simple: get students using the English they already know.</p><p class="welcome-note">Most need little more than paper and something to write with. If a task works well, use it again with a different prompt.</p></div>
-<aside class="routine-card" aria-label="Twenty-minute routine"><h2>A rough guide to the time</h2><ol><li><b>3 min</b><span>Explain it. Give an example.</span></li><li><b>13 min</b><span>Let students do the talking.</span></li><li><b>4 min</b><span>Hear a few answers and finish.</span></li></ol><p>If the discussion is going well, let it run.</p></aside></section>
+<h1 class="visually-hidden">Taihang House Activities</h1>
+<figure class="mountain-banner"><img src="assets/taihang-mountains.jpg" width="2200" height="568" alt="Panoramic view of green ridges and steep cliffs in the Taihang Mountains" fetchpriority="high" decoding="async"></figure>
 <section id="collection" aria-labelledby="collection-title"><div class="section-heading"><h2 id="collection-title">Choose an activity</h2><button class="button secondary" id="surprise">Pick one for me</button></div><div class="filters" role="group" aria-label="Filter activities">{filters}</div><p class="result-count" id="result-count" role="status">20 activities</p><div class="activity-grid">{''.join(cards)}</div></section>
 <aside class="bottom-note"><strong>A couple of things to keep in mind</strong><p>Give them a moment to think before asking for an answer. Make sure everyone gets a turn. Help with a missing word when they need it, but keep the conversation moving.</p></aside>
 </main>'''
-(SITE / 'index.html').write_text(page('Activities', home))
+(SITE / 'index.html').write_text(page('Activities', home, page_type='home'))
 
 for a in activities:
     i = a['id']
@@ -83,5 +85,5 @@ tutorial = '''<main id="main" class="tutorial-page">
 </main>'''
 (SITE / 'tutorial.html').write_text(page('Teacher notes', tutorial, page_type='tutorial'))
 (SITE / '.nojekyll').write_text('')
-(SITE / '404.html').write_text('''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Page not found | Homeroom English</title><style>body{font:18px/1.6 system-ui,sans-serif;color:#263d49;max-width:600px;margin:15vh auto;padding:25px}a{color:inherit}</style></head><body><h1>That page isn’t here.</h1><p><a href="/esl-homeroom/">Back to the activities</a></p></body></html>''')
+(SITE / '404.html').write_text('''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Page not found | Taihang House Activities</title><style>body{font:18px/1.6 system-ui,sans-serif;color:#263d49;max-width:600px;margin:15vh auto;padding:25px}a{color:inherit}</style></head><body><h1>That page isn’t here.</h1><p><a href="/esl-homeroom/">Back to the activities</a></p></body></html>''')
 print(f'Built {len(activities)} activity pages, menu and teacher notes.')

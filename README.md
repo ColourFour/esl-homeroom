@@ -1,4 +1,4 @@
-# Homeroom English
+# Taihang House Activities
 
 Twenty short English activities for the start of the school day. Each has prompts for the board, a timer and a teacher guide. The site also includes a menu and a short tutorial.
 
