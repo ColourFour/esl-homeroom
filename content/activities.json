@@ -1,0 +1,1198 @@
+[
+  {
+    "title": "Would You Rather?",
+    "kind": "Opinions",
+    "group": "Pairs → groups of 4",
+    "prep": "No materials",
+    "purpose": "Choose between two options, then try to convince a partner. The reason matters more than the choice.",
+    "setup": "Put up a question. Students can raise a hand, point to a side or move across the room. Use the vote buttons if you want to record the class totals.",
+    "steps": [
+      [
+        "Give an example",
+        "Read the first question and give your own answer with a reason. Let students think for a moment before they choose."
+      ],
+      [
+        "Compare answers",
+        "In pairs, both students explain their choice. Ask them to follow up with “Why?” or “What about…?” Try a second question with a new partner."
+      ],
+      [
+        "Try to change a mind",
+        "Put up another question. In groups of four, students explain their choices and respond to each other. They can change sides if someone makes a good point."
+      ],
+      [
+        "Take a few answers",
+        "Hear two or three reasons from the room. Ask everyone to tell a partner which reason they found most convincing."
+      ]
+    ],
+    "frames": "“I’d rather ___ because ___.” · “Why would you choose ___?”",
+    "skills": "Giving opinions · Using because · Asking follow-up questions",
+    "support": "Use “I choose ___ because it is fun / useful / easier.”",
+    "stretch": "Ask them to find a drawback to their own choice.",
+    "id": 1,
+    "slug": "would-you-rather",
+    "mode": "vote",
+    "rounds": [
+      {
+        "title": "Would you rather…",
+        "options": [
+          "Fly",
+          "Become invisible"
+        ]
+      },
+      {
+        "title": "Would you rather have…",
+        "options": [
+          "No homework for a week",
+          "An extra hour of free time every day"
+        ]
+      },
+      {
+        "title": "Would you rather…",
+        "options": [
+          "Travel by train",
+          "Travel by plane"
+        ]
+      },
+      {
+        "title": "Would you rather…",
+        "options": [
+          "Talk to animals",
+          "Speak every language"
+        ]
+      }
+    ],
+    "note": "If everyone picks the same side, ask them to make the best case for the other one."
+  },
+  {
+    "title": "Rank It",
+    "kind": "Discussion",
+    "group": "Groups of 3–4",
+    "prep": "Paper + pens",
+    "purpose": "Give each group a list to put in order. They have to agree, which gives them something to discuss.",
+    "setup": "Show the list. Groups make their own ranking on paper. Use the arrows on the board when you want to compare a group’s answer with the class.",
+    "steps": [
+      [
+        "Set the situation",
+        "Read the question and check any unfamiliar words. Each student chooses what they would put first."
+      ],
+      [
+        "Hear everyone’s choice",
+        "Go round the group. Each person names their top item and explains why. Encourage the others to ask questions."
+      ],
+      [
+        "Agree on one list",
+        "Groups write a shared ranking. Everyone should suggest a change or give a reason. Ask them to explain their first and last choices."
+      ],
+      [
+        "Compare the lists",
+        "Hear from a few groups. Where the rankings differ, ask students to explain why they made a different choice."
+      ]
+    ],
+    "frames": "“___ is more useful than ___ because ___.” · “I disagree because ___.”",
+    "skills": "Comparing things · Agreeing and disagreeing · Explaining choices",
+    "support": "Use four items instead of six.",
+    "stretch": "Change the situation and ask whether their ranking still works.",
+    "id": 2,
+    "slug": "rank-it",
+    "mode": "rank",
+    "rounds": [
+      {
+        "title": "Stranded on an island: most useful first.",
+        "items": [
+          "Water",
+          "Rope",
+          "Blanket",
+          "Mirror",
+          "Chocolate",
+          "Umbrella"
+        ]
+      },
+      {
+        "title": "A new school: which improvement matters most?",
+        "items": [
+          "More clubs",
+          "A garden",
+          "Later mornings",
+          "Better lunches",
+          "Longer breaks",
+          "A quiet room"
+        ]
+      },
+      {
+        "title": "A long train journey: what would you pack first?",
+        "items": [
+          "Water",
+          "A book",
+          "Headphones",
+          "A pillow",
+          "Snacks",
+          "A game"
+        ]
+      }
+    ],
+    "note": "There is no answer sheet here. A sensible reason is enough, even if another group disagrees."
+  },
+  {
+    "title": "Find Someone Who…",
+    "kind": "Move & talk",
+    "group": "Class mingle",
+    "prep": "Notebooks",
+    "purpose": "Students move around asking short questions and finding things out about their classmates.",
+    "setup": "Show the prompts. Students copy short labels and leave space for names. If there isn’t room to move, change partners at their desks.",
+    "steps": [
+      [
+        "Show how to ask",
+        "Turn “likes spicy food” into “Do you like spicy food?” Model a yes/no answer and one follow-up question."
+      ],
+      [
+        "Find a few people",
+        "Students ask different classmates and note a name for each yes. They need to hear the answer before writing it down."
+      ],
+      [
+        "Find out a bit more",
+        "Keep going with new partners. Ask students to add a follow-up, such as “What do you draw?” They should remember one detail about someone."
+      ],
+      [
+        "Tell a partner",
+        "Each student shares two things they found out. Take a few examples from the class if there is time."
+      ]
+    ],
+    "frames": "“Do you like ___?” · “Can you ___?” · “What kind of ___?”",
+    "skills": "Forming questions · Listening for details · Talking about another person",
+    "support": "Write the full questions beside the prompts.",
+    "stretch": "Use a different name for every prompt and ask two follow-up questions.",
+    "id": 3,
+    "slug": "find-someone-who",
+    "mode": "checklist",
+    "rounds": [
+      {
+        "title": "Find someone who…",
+        "items": [
+          "Likes spicy food",
+          "Can swim",
+          "Enjoys drawing",
+          "Has a pet",
+          "Likes waking up early"
+        ]
+      },
+      {
+        "title": "A few things we have in common",
+        "items": [
+          "Likes rainy days",
+          "Enjoys cooking",
+          "Plays a sport",
+          "Likes puzzles",
+          "Can ride a bicycle"
+        ]
+      },
+      {
+        "title": "Ask about favourites",
+        "items": [
+          "Likes the same colour as you",
+          "Enjoys the same food as you",
+          "Likes the same season as you",
+          "Enjoys the same school subject as you",
+          "Likes the same kind of music as you"
+        ]
+      }
+    ],
+    "note": "Keep an ear out for students reading the prompt instead of asking a question. Model the question again and let them try."
+  },
+  {
+    "title": "Describe & Draw",
+    "kind": "Stories & ideas",
+    "group": "Pairs",
+    "prep": "Paper + pencils",
+    "purpose": "One student describes a hidden picture. Their partner draws what they hear. Compare the results, then swap.",
+    "setup": "Pairs need paper and pencils. Let the describers read the secret scene while the drawers face away. Hide it before they turn back. The drawing pad is useful for a class example.",
+    "steps": [
+      [
+        "Make the task clear",
+        "Model “Draw a circle above a square.” Explain that the describer can talk, but can’t point at the partner’s paper."
+      ],
+      [
+        "Describe and draw",
+        "Show scene A to the describers, then hide it. They describe the scene while their partners draw and ask questions. Reveal it to compare."
+      ],
+      [
+        "Swap roles",
+        "Use scene B. The new describer gives the instructions. Ask pairs to notice which words made the second drawing easier to follow."
+      ],
+      [
+        "Compare what happened",
+        "Each pair shares one helpful instruction or one misunderstanding. Put a useful phrase on the board for next time."
+      ]
+    ],
+    "frames": "“Draw ___ next to ___.” · “On the left or the right?” · “Could you repeat that?”",
+    "skills": "Position words · Describing size and number · Asking for clarification",
+    "support": "Start with three objects. Check above, below, left and right first.",
+    "stretch": "Ask the describer to add sizes, colours or extra details.",
+    "id": 4,
+    "slug": "describe-draw",
+    "mode": "draw",
+    "rounds": [
+      {
+        "title": "Secret scene A",
+        "answer": "A house; a tree on the left; a cat on the roof; three flowers in front."
+      },
+      {
+        "title": "Secret scene B",
+        "answer": "A boat; a fish below it; a sun above it; a bird on the right."
+      },
+      {
+        "title": "Secret scene C",
+        "answer": "A robot in the middle; a hat on its head; a ball by its left foot; two stars above it."
+      }
+    ],
+    "note": "The drawing doesn’t have to be good. If the cat ends up under the house, work out which instruction led to it."
+  },
+  {
+    "title": "Mystery Object",
+    "kind": "Stories & ideas",
+    "group": "Groups of 3–4",
+    "prep": "One small object",
+    "purpose": "Give an ordinary object a new purpose. Groups decide what it does and explain how someone would use it.",
+    "setup": "Bring a small object, such as a binder clip or an empty box. If you don’t have one, use the name on the page. The extra challenge gives students a particular person to design for.",
+    "steps": [
+      [
+        "Describe the object",
+        "Show it and collect a few words about its shape, material and size. Ask what else it could be used for."
+      ],
+      [
+        "Come up with ideas",
+        "Each student suggests a use. The group asks how the ideas would work and chooses one to develop."
+      ],
+      [
+        "Explain the invention",
+        "Give it a name and prepare a short explanation. Everyone contributes a line about what it does or how to use it."
+      ],
+      [
+        "Share with another group",
+        "Groups explain their ideas to their neighbours. Ask the listeners which part they would like to try."
+      ]
+    ],
+    "frames": "“It might be ___.” · “It could help you ___.” · “We think it is used for ___.”",
+    "skills": "Describing objects · Using could and might · Explaining a use",
+    "support": "Offer a few words: metal, plastic, round, hold, carry, open.",
+    "stretch": "Ask what could go wrong with the invention and how to fix it.",
+    "id": 5,
+    "slug": "mystery-object",
+    "mode": "mystery",
+    "rounds": [
+      {
+        "title": "A binder clip",
+        "answer": "Find a new use for it on a camping trip."
+      },
+      {
+        "title": "A kitchen whisk",
+        "answer": "Give it a use outside the kitchen."
+      },
+      {
+        "title": "A rubber band",
+        "answer": "Use it to solve a small problem at school."
+      },
+      {
+        "title": "An empty box",
+        "answer": "Make something useful for a crowded desk."
+      }
+    ],
+    "note": "Once someone says the real name of the object, move straight to inventing another use for it."
+  },
+  {
+    "title": "Two Truths and a Lie",
+    "kind": "Questions",
+    "group": "Groups of 3–4",
+    "prep": "Paper + pens",
+    "purpose": "Students write three statements about themselves. Classmates ask questions before guessing which one is made up.",
+    "setup": "Choose a topic such as food, hobbies or school. The statements on the page are examples to replace. Students can use an invented character if they prefer.",
+    "steps": [
+      [
+        "Play one round together",
+        "Give three statements of your own: two true, one invented. Let the class ask a question before guessing."
+      ],
+      [
+        "Write three statements",
+        "Students write their own. Help them phrase anything they’re unsure about and give them time to practise saying it."
+      ],
+      [
+        "Ask, then guess",
+        "Take turns in groups. Each person reads their statements. The others ask questions, make a guess, and hear the answer."
+      ],
+      [
+        "Remember something true",
+        "Students tell a partner one true thing they learnt. Ask for a few examples of questions that helped."
+      ]
+    ],
+    "frames": "“How often do you ___?” · “When did you ___?” · “I think ___ is the lie because ___.”",
+    "skills": "Writing short statements · Asking questions · Listening for clues",
+    "support": "Start with “I like…”, “I can…” and “I have…”",
+    "stretch": "Use past experiences and ask two questions before guessing.",
+    "id": 6,
+    "slug": "two-truths-and-a-lie-topic-edition",
+    "mode": "truth",
+    "rounds": [
+      {
+        "title": "Food",
+        "items": [
+          "I can make noodles.",
+          "I put ketchup on ice cream.",
+          "I eat an apple every day."
+        ]
+      },
+      {
+        "title": "Hobbies",
+        "items": [
+          "I can play a musical instrument.",
+          "I draw every weekend.",
+          "I collect unusual socks."
+        ]
+      },
+      {
+        "title": "School",
+        "items": [
+          "I like solving puzzles.",
+          "My favourite subject is art.",
+          "I always arrive first."
+        ]
+      }
+    ],
+    "note": "Don’t let it become three statements followed by an instant guess. The questions are the useful part."
+  },
+  {
+    "title": "Taboo Lite",
+    "kind": "Vocabulary",
+    "group": "Groups of 3–4",
+    "prep": "Screen or word cards",
+    "purpose": "Explain a word without saying the obvious clues. Useful practice for when students know what they mean but can’t find a word.",
+    "setup": "Only the clue-giver should see the card. Keep the guessers facing away from the screen. For several groups at once, copy a few cards onto paper.",
+    "steps": [
+      [
+        "Give a quick example",
+        "For pizza, try “It is usually round. You cut it into slices.” Explain that they can’t say the target word, the banned words or a translation."
+      ],
+      [
+        "Play a few turns",
+        "Give each clue-giver up to a minute. The others guess. Change the clue-giver after every word so everyone has a turn."
+      ],
+      [
+        "Make new cards",
+        "Each student writes a familiar word and two words the clue-giver can’t use. Shuffle and play another round."
+      ],
+      [
+        "Collect useful clues",
+        "Ask which descriptions worked. Choose a difficult word and see whether the class can explain it another way."
+      ]
+    ],
+    "frames": "“It is a kind of ___.” · “You use it to ___.” · “It is similar to ___.”",
+    "skills": "Explaining vocabulary · Describing a function · Listening for meaning",
+    "support": "Ban just one word and allow a pass after an attempt.",
+    "stretch": "Ban three words or ask for a second description of the same word.",
+    "id": 7,
+    "slug": "taboo-lite",
+    "mode": "taboo",
+    "rounds": [
+      {
+        "title": "Pizza",
+        "items": [
+          "cheese",
+          "food",
+          "Italy"
+        ]
+      },
+      {
+        "title": "School",
+        "items": [
+          "teacher",
+          "student",
+          "learn"
+        ]
+      },
+      {
+        "title": "Elephant",
+        "items": [
+          "trunk",
+          "animal",
+          "big"
+        ]
+      },
+      {
+        "title": "Football",
+        "items": [
+          "ball",
+          "kick",
+          "sport"
+        ]
+      },
+      {
+        "title": "Umbrella",
+        "items": [
+          "rain",
+          "wet",
+          "dry"
+        ]
+      },
+      {
+        "title": "Bicycle",
+        "items": [
+          "wheel",
+          "ride",
+          "pedal"
+        ]
+      }
+    ],
+    "note": "If the word itself is unfamiliar, change it. The point is finding another way to say something."
+  },
+  {
+    "title": "Picture Story",
+    "kind": "Stories & ideas",
+    "group": "Groups of 3–4",
+    "prep": "Pictures on screen",
+    "purpose": "Three pictures, one short story. Groups find a way to connect them and tell it in about a minute.",
+    "setup": "Show the three pictures and check the names. Groups can use paper for a few notes, but don’t need to write out the whole story.",
+    "steps": [
+      [
+        "Start them off",
+        "Name the pictures and give a possible opening sentence. Leave the rest of the story to them."
+      ],
+      [
+        "Put a story together",
+        "Each person suggests something that happens. Groups agree on a beginning, a problem and an ending that use all three pictures."
+      ],
+      [
+        "Practise telling it",
+        "Give everyone a line. Rehearse once and keep it to about a minute. If it’s too long, decide which parts they can leave out."
+      ],
+      [
+        "Tell another group",
+        "Neighbouring groups tell each other their stories. Listeners say which part they liked and ask a question."
+      ]
+    ],
+    "frames": "“First, ___.” · “Then, ___.” · “Suddenly, ___!” · “Finally, ___.”",
+    "skills": "Putting events in order · Telling a story · Linking ideas",
+    "support": "Use three sentences starting with first, then and finally.",
+    "stretch": "Add a line of dialogue and an unexpected ending.",
+    "id": 8,
+    "slug": "picture-story",
+    "mode": "story",
+    "rounds": [
+      {
+        "title": "Connect all three in one story.",
+        "items": [
+          "🐧 Penguin",
+          "🚕 Taxi",
+          "🎂 Cake"
+        ]
+      },
+      {
+        "title": "Connect all three in one story.",
+        "items": [
+          "🦊 Fox",
+          "🚀 Rocket",
+          "🔑 Key"
+        ]
+      },
+      {
+        "title": "Connect all three in one story.",
+        "items": [
+          "🐢 Turtle",
+          "🎸 Guitar",
+          "🏰 Castle"
+        ]
+      },
+      {
+        "title": "Connect all three in one story.",
+        "items": [
+          "🤖 Robot",
+          "☂️ Umbrella",
+          "🍕 Pizza"
+        ]
+      }
+    ],
+    "note": "Let the story be a bit ridiculous. They still need to make the connection clear to the listener."
+  },
+  {
+    "title": "Sell Me This",
+    "kind": "Short talks",
+    "group": "Groups of 3–4",
+    "prep": "One object per group",
+    "purpose": "Make a 30-second advertisement for something ordinary. Give people a reason to want it.",
+    "setup": "Give each group a pencil, spoon, sock or notebook. They can use the object named on screen if you don’t have one. The extra customer is there if they need another angle.",
+    "steps": [
+      [
+        "Show them the idea",
+        "Pick up an object and give a quick sales pitch. Invented features are fine, as long as students explain what they do."
+      ],
+      [
+        "Decide what to sell",
+        "Groups choose a name, a customer and two reasons to buy the product. Everyone suggests a benefit."
+      ],
+      [
+        "Rehearse the advert",
+        "Put the ideas into a 30-second advert. Give each student a line and practise saying it clearly."
+      ],
+      [
+        "Try it on an audience",
+        "Perform to a neighbouring group. Listeners say which feature would persuade them to buy it."
+      ]
+    ],
+    "frames": "“You need this because ___.” · “It is the most ___.” · “With this, you can ___.”",
+    "skills": "Describing benefits · Using adjectives · Persuading a listener",
+    "support": "Use a name, two features and “Try it today.”",
+    "stretch": "Have the audience raise an objection for the sellers to answer.",
+    "id": 9,
+    "slug": "sell-me-this",
+    "mode": "pitch",
+    "rounds": [
+      {
+        "title": "Sell this: a pencil",
+        "answer": "Your customer keeps losing their stationery."
+      },
+      {
+        "title": "Sell this: a spoon",
+        "answer": "Your customer is going on a camping trip."
+      },
+      {
+        "title": "Sell this: a sock",
+        "answer": "Your customer cycles to school in the rain."
+      },
+      {
+        "title": "Sell this: a notebook",
+        "answer": "Your customer always forgets what they need to do."
+      }
+    ],
+    "note": "A pencil is enough. The interest comes from what they claim it can do."
+  },
+  {
+    "title": "Mini Debate",
+    "kind": "Opinions",
+    "group": "Pairs → groups of 4",
+    "prep": "No materials",
+    "purpose": "Take a side on a school issue, prepare a couple of reasons and respond to someone who disagrees.",
+    "setup": "Show one statement. Students choose a side. If almost everyone agrees, invite a few volunteers to argue the other case for practice.",
+    "steps": [
+      [
+        "Choose a side",
+        "Read the statement and model a reason. Give them a polite way to disagree: “I see your point, but…”"
+      ],
+      [
+        "Prepare two reasons",
+        "Students work with someone on the same side. Think of two reasons and a concrete example, then practise explaining them."
+      ],
+      [
+        "Discuss both sides",
+        "Join another pair, ideally with a different view. Take turns giving reasons and answering each other. Everyone asks or answers a question."
+      ],
+      [
+        "Reconsider",
+        "Ask which reason from the other side was strongest. Take another show of hands to see whether anyone changed their mind."
+      ]
+    ],
+    "frames": "“I agree because ___.” · “I see your point, but ___.” · “For example, ___.”",
+    "skills": "Giving arguments · Disagreeing politely · Responding to a point",
+    "support": "Give a reason to finish: “A later start would help because…”",
+    "stretch": "Finish by agreeing on a compromise.",
+    "id": 10,
+    "slug": "mini-debate",
+    "mode": "vote",
+    "rounds": [
+      {
+        "title": "School should start at 10 a.m.",
+        "options": [
+          "Agree",
+          "Disagree"
+        ]
+      },
+      {
+        "title": "Students should choose their own seats.",
+        "options": [
+          "Agree",
+          "Disagree"
+        ]
+      },
+      {
+        "title": "Every school should have a garden.",
+        "options": [
+          "Agree",
+          "Disagree"
+        ]
+      },
+      {
+        "title": "A class trip is better than a class party.",
+        "options": [
+          "Agree",
+          "Disagree"
+        ]
+      }
+    ],
+    "note": "One clear reason is better than a long list they can’t explain. Ask for an example."
+  },
+  {
+    "title": "Guess My Word",
+    "kind": "Vocabulary",
+    "group": "Groups of 3–4",
+    "prep": "Screen or word cards",
+    "purpose": "Ask yes/no questions to work out a hidden word. Start broad, then narrow it down.",
+    "setup": "Turn the guesser away while the rest of the group reads the word. Hide it before they turn back. Use paper cards if several groups are playing at once.",
+    "steps": [
+      [
+        "Model a few questions",
+        "Show how “Is it alive?” rules out several possibilities. Put “Is it…?”, “Can it…?” and “Do people…?” on the board."
+      ],
+      [
+        "Play and swap",
+        "Give each guesser up to ten questions or two minutes, then a final guess. Reveal the word and change the guesser."
+      ],
+      [
+        "Keep everyone involved",
+        "Continue until everyone has had a turn. Ask the group to notice which questions helped most. Add familiar words on paper if needed."
+      ],
+      [
+        "Keep the useful questions",
+        "Hear a good question from each group. Ask students to improve a question that didn’t give them much information."
+      ]
+    ],
+    "frames": "“Is it alive?” · “Can you eat it?” · “Do people use it at school?”",
+    "skills": "Yes/no questions · Describing categories · Using answers to narrow a guess",
+    "support": "Tell the guesser the category and leave question starters visible.",
+    "stretch": "Try a six-question limit.",
+    "id": 11,
+    "slug": "guess-my-word",
+    "mode": "guess",
+    "rounds": [
+      {
+        "title": "Cat"
+      },
+      {
+        "title": "Elephant"
+      },
+      {
+        "title": "Apple"
+      },
+      {
+        "title": "Pizza"
+      },
+      {
+        "title": "Pencil"
+      },
+      {
+        "title": "Bicycle"
+      },
+      {
+        "title": "Chair"
+      },
+      {
+        "title": "Umbrella"
+      }
+    ],
+    "note": "If they keep guessing individual words, stop briefly and model a question that rules out a whole category."
+  },
+  {
+    "title": "Odd One Out",
+    "kind": "Discussion",
+    "group": "Groups of 3–4",
+    "prep": "No materials",
+    "purpose": "Choose which word doesn’t belong and explain your rule. A different answer can be just as good.",
+    "setup": "Show one set of four words. Tell students that they need a reason for their answer. Keep the suggested reasons hidden until they have discussed it.",
+    "steps": [
+      [
+        "Give one answer",
+        "For dog, eagle, shark and tiger, try “Eagle, because it can fly.” Ask whether a different answer could work."
+      ],
+      [
+        "Find another reason",
+        "Students choose privately, then explain their answers in groups. Ask each group to find at least two answers it can defend."
+      ],
+      [
+        "Make a set",
+        "Try the next prompt. Then groups write four words of their own and swap with another group to discuss."
+      ],
+      [
+        "Hear the explanations",
+        "Take a few answers and ask which rule each group used. Partners choose the explanation they found clearest."
+      ]
+    ],
+    "frames": "“___ is different because ___.” · “The others all ___.” · “Another answer could be ___.”",
+    "skills": "Grouping vocabulary · Giving reasons · Explaining a different view",
+    "support": "Check the word meanings and offer “The others all…”",
+    "stretch": "Find a reason for every word to be the odd one out.",
+    "id": 12,
+    "slug": "odd-one-out",
+    "mode": "odd",
+    "rounds": [
+      {
+        "title": "Which is the odd one out?",
+        "items": [
+          "Dog",
+          "Eagle",
+          "Shark",
+          "Tiger"
+        ],
+        "answer": "Eagle can fly; shark lives in water; dog is commonly kept as a pet. Other clear reasons can work too."
+      },
+      {
+        "title": "Which is the odd one out?",
+        "items": [
+          "Bicycle",
+          "Bus",
+          "Train",
+          "Boat"
+        ],
+        "answer": "Bicycle is powered by pedalling; boat travels on water; train follows rails. Defend a different answer if you can."
+      },
+      {
+        "title": "Which is the odd one out?",
+        "items": [
+          "Apple",
+          "Carrot",
+          "Banana",
+          "Grape"
+        ],
+        "answer": "Carrot is usually grouped as a vegetable; banana is normally peeled before eating; grapes often grow in bunches. Explain your rule."
+      }
+    ],
+    "note": "Wait before revealing the examples. Once there’s an answer on the board, they may stop looking for their own."
+  },
+  {
+    "title": "One-Minute Expert",
+    "kind": "Short talks",
+    "group": "Pairs",
+    "prep": "Paper for keywords",
+    "purpose": "Give students a familiar topic and a little thinking time, then ask them to talk for up to a minute.",
+    "setup": "Use a topic from the page. Students note a few words rather than a full script. Start with 30 seconds if a minute feels too long.",
+    "steps": [
+      [
+        "Give a short example",
+        "Talk for 20 seconds using an opinion, a reason and an example. Point out how those three parts gave you something to say."
+      ],
+      [
+        "Prepare and try",
+        "Students write three keywords. Each gives a 30-second talk to a partner, who asks one question. Swap."
+      ],
+      [
+        "Have another go",
+        "Keep the topic or choose a new one. Change partners and aim for a slightly longer talk. Use the one-minute timer for turns."
+      ],
+      [
+        "Notice what helped",
+        "Partners name a clear idea they heard. Ask students which keyword or question helped them keep going."
+      ]
+    ],
+    "frames": "“I think ___ because ___.” · “For example, ___.” · “Another thing is ___.”",
+    "skills": "Speaking at length · Organising ideas · Giving examples",
+    "support": "Aim for 20–30 seconds and give three useful words.",
+    "stretch": "Have the listener ask a question the speaker hasn’t prepared for.",
+    "id": 13,
+    "slug": "one-minute-expert",
+    "mode": "expert",
+    "rounds": [
+      {
+        "title": "Bubble tea",
+        "items": [
+          "What is it?",
+          "Why do people like it?",
+          "What would you recommend?"
+        ]
+      },
+      {
+        "title": "A perfect weekend",
+        "items": [
+          "Where would you go?",
+          "What would you do?",
+          "Why would it be good?"
+        ]
+      },
+      {
+        "title": "A game you enjoy",
+        "items": [
+          "How do you play?",
+          "What makes it interesting?",
+          "Who would you recommend it to?"
+        ]
+      },
+      {
+        "title": "A place you know well",
+        "items": [
+          "Where is it?",
+          "What can you do there?",
+          "Why would someone go there?"
+        ]
+      }
+    ],
+    "note": "Allow pauses. The aim is to get a thought across without writing every sentence first."
+  },
+  {
+    "title": "Improve This",
+    "kind": "Discussion",
+    "group": "Groups of 3–4",
+    "prep": "Paper + pens",
+    "purpose": "Start with an obviously bad school idea. Groups make three changes and explain why their version is better.",
+    "setup": "Show one of the bad ideas. Groups need paper for their improvements. Use the extra condition only if they need more of a challenge.",
+    "steps": [
+      [
+        "Find the problem",
+        "Read the idea and ask what would go wrong. Give one suggestion using “We should…”"
+      ],
+      [
+        "Suggest changes",
+        "Each student offers a fix. Ask who it would help and how it would make a difference."
+      ],
+      [
+        "Agree on three fixes",
+        "Groups choose their best three changes. Prepare a short explanation, with a line or a reason from each person."
+      ],
+      [
+        "Compare versions",
+        "Groups explain their plans to their neighbours. Listeners choose the most useful change and say why."
+      ]
+    ],
+    "frames": "“We should ___.” · “Students could ___.” · “It would be better if ___.”",
+    "skills": "Making suggestions · Using should and could · Explaining improvements",
+    "support": "Give two possible changes and ask students to choose one.",
+    "stretch": "Keep the extra condition and explain how the plan still works.",
+    "id": 14,
+    "slug": "improve-this",
+    "mode": "improve",
+    "rounds": [
+      {
+        "title": "The cafeteria only serves plain rice, every day.",
+        "answer": "Your improved menu must include one meal everyone can customise."
+      },
+      {
+        "title": "The library has no chairs and closes at break time.",
+        "answer": "You can change only three things."
+      },
+      {
+        "title": "The school playground is one enormous car park.",
+        "answer": "Your plan needs one quiet space and one active space."
+      }
+    ],
+    "note": "Push beyond “make it better”. What exactly would they change?"
+  },
+  {
+    "title": "Morning Poll",
+    "kind": "Move & talk",
+    "group": "Class → small groups",
+    "prep": "No materials",
+    "purpose": "Take a quick class vote, discuss the choices, then use the results to practise comparisons.",
+    "setup": "Read the question and count a show of hands. Enter the totals using the vote buttons. Students can also move to different parts of the room to choose.",
+    "steps": [
+      [
+        "Take the vote",
+        "Check that everyone understands the options. Count one vote per person and leave the results hidden for now."
+      ],
+      [
+        "Explain the choices",
+        "Partners explain their votes and ask each other a question. Join another pair and compare reasons."
+      ],
+      [
+        "Look at the results",
+        "Show the totals. Groups describe what was most and least popular and suggest why. Ask whether the result surprised them."
+      ],
+      [
+        "Report one thing",
+        "Each group prepares a sentence about the results. Hear a few, then ask partners to share an opinion they hadn’t expected."
+      ]
+    ],
+    "frames": "“Most of us chose ___.” · “___ is more popular than ___.” · “I chose ___ because ___.”",
+    "skills": "Comparing amounts · Reporting a class result · Explaining a preference",
+    "support": "Use “More students chose ___ than ___.”",
+    "stretch": "Estimate the proportion choosing each option and predict another class’s result.",
+    "id": 15,
+    "slug": "morning-poll",
+    "mode": "vote",
+    "rounds": [
+      {
+        "title": "What is the best way to start the school day?",
+        "options": [
+          "Music",
+          "A game",
+          "Quiet reading",
+          "A conversation"
+        ]
+      },
+      {
+        "title": "Which class trip would you choose?",
+        "options": [
+          "Science museum",
+          "Nature park",
+          "Art workshop",
+          "Sports centre"
+        ]
+      },
+      {
+        "title": "Which new club would you try?",
+        "options": [
+          "Cooking",
+          "Robotics",
+          "Drama",
+          "Photography"
+        ]
+      }
+    ],
+    "note": "The vote only takes a minute. Leave most of the time for the reasons behind it."
+  },
+  {
+    "title": "Story Chain",
+    "kind": "Stories & ideas",
+    "group": "Groups of 4",
+    "prep": "No materials",
+    "purpose": "Build a story round the group, one sentence at a time. Each person has to listen before adding their part.",
+    "setup": "Groups sit where they can hear each other. Show an opening line. They can tell the story aloud; the box on the page is there for a shared class example.",
+    "steps": [
+      [
+        "Start a story",
+        "Read the opening and add one sentence. Explain that each new sentence needs to connect to what came before."
+      ],
+      [
+        "Go round twice",
+        "Everyone adds a sentence in turn. Keep going for two rounds. Help with a missing word if someone gets stuck."
+      ],
+      [
+        "Add a problem",
+        "Reveal the extra detail and continue the story. Go round again, then decide how it ends. Practise a short retelling."
+      ],
+      [
+        "Tell it to someone else",
+        "Groups retell the story to their neighbours. Listeners identify the problem and a detail they remember."
+      ]
+    ],
+    "frames": "“Then ___.” · “But suddenly ___.” · “Because of that, ___.” · “In the end, ___.”",
+    "skills": "Listening to other speakers · Linking sentences · Telling a story",
+    "support": "Keep then, because and finally on the board.",
+    "stretch": "Make each speaker refer to a detail from the previous sentence.",
+    "id": 16,
+    "slug": "story-chain",
+    "mode": "chain",
+    "rounds": [
+      {
+        "title": "I picked up the wrong schoolbag this morning.",
+        "answer": "There is a note inside, addressed to you."
+      },
+      {
+        "title": "This morning, every clock in the city stopped.",
+        "answer": "One student’s watch still works."
+      },
+      {
+        "title": "The bus stopped, but nobody got on or off.",
+        "answer": "The driver is looking for someone in the queue."
+      }
+    ],
+    "note": "Watch for one confident student taking over the plot. Give everyone a turn, even if they only add a short sentence."
+  },
+  {
+    "title": "Speed Chat",
+    "kind": "Questions",
+    "group": "Pairs, then rotate",
+    "prep": "No materials",
+    "purpose": "Short conversations with a few different classmates. The follow-up question is what keeps each one going.",
+    "setup": "Arrange pairs and decide how partners will change. Use the one-minute timer for each person’s turn. Students can choose another question if they prefer.",
+    "steps": [
+      [
+        "Show a short exchange",
+        "Answer a question, ask “Why?” or “How about you?”, and respond. Make clear that both partners need a turn."
+      ],
+      [
+        "Talk, then change partners",
+        "Show a question and give each person about a minute. Change partners and use the next question. Leave time to move."
+      ],
+      [
+        "Try two more questions",
+        "Continue with new partners. Ask each student to add a follow-up question before sharing their own answer."
+      ],
+      [
+        "Remember an idea",
+        "Students tell a partner an interesting idea they heard. Ask which follow-up question got a longer answer."
+      ]
+    ],
+    "frames": "“What do you like about ___?” · “Why is that?” · “How about you?”",
+    "skills": "Taking turns · Asking follow-up questions · Listening for detail",
+    "support": "Show the next question early and let students plan a few words.",
+    "stretch": "Ask two follow-up questions before giving your own answer.",
+    "id": 17,
+    "slug": "speed-chat",
+    "mode": "chat",
+    "rounds": [
+      {
+        "title": "What small thing makes a school day better?",
+        "answer": "Why does it make a difference?"
+      },
+      {
+        "title": "What skill would you like to learn?",
+        "answer": "Who could help you start?"
+      },
+      {
+        "title": "If you could invent a new snack, what would it be?",
+        "answer": "What would you call it?"
+      },
+      {
+        "title": "Where would you go with one free afternoon?",
+        "answer": "What would you do there?"
+      },
+      {
+        "title": "What makes a good teammate?",
+        "answer": "Can you give an example?"
+      }
+    ],
+    "note": "If answers stop after one word, model a follow-up. “Why?” is often enough."
+  },
+  {
+    "title": "Category Sprint",
+    "kind": "Vocabulary",
+    "group": "Teams of 3–4",
+    "prep": "Paper + pens",
+    "purpose": "Teams list words in a category for one minute, then explain a few of the words they chose.",
+    "setup": "Each team needs paper. Show a category and use the one-minute timer. The word box on the page can collect a shared class list afterwards.",
+    "steps": [
+      [
+        "Check the category",
+        "Give two examples and explain that repeated words only count once. Students need to know what their words mean."
+      ],
+      [
+        "Make a list",
+        "Give teams a minute to write as many words as they can. Then each person explains one entry to the group."
+      ],
+      [
+        "Try another category",
+        "Repeat with a new category. Teams choose three useful words and put each into a sentence. Everyone contributes."
+      ],
+      [
+        "Keep a few words",
+        "Take a word and an explanation from each team. Partners choose one word to remember and use it in a sentence."
+      ]
+    ],
+    "frames": "“___ belongs because ___.” · “It means ___.” · “You can use it to ___.”",
+    "skills": "Recalling vocabulary · Explaining word meanings · Using words in sentences",
+    "support": "Give two starter words and allow students to sketch before naming an object.",
+    "stretch": "Ask for an explanation in English before accepting a word.",
+    "id": 18,
+    "slug": "category-sprint",
+    "mode": "category",
+    "rounds": [
+      {
+        "title": "Things you can find in a kitchen",
+        "answer": "Choose three words and explain what each thing is used for."
+      },
+      {
+        "title": "Things that can move",
+        "answer": "Choose three words and describe how they move."
+      },
+      {
+        "title": "Words to describe a good friend",
+        "answer": "Choose three words and give an example of each."
+      },
+      {
+        "title": "Things to pack for a trip",
+        "answer": "Choose three words and say why you need those things."
+      }
+    ],
+    "note": "A long list is fine, but check that they can actually use the words. Spend time on two or three good examples."
+  },
+  {
+    "title": "Sentence Detective",
+    "kind": "Discussion",
+    "group": "Pairs → groups of 4",
+    "prep": "Paper + pens",
+    "purpose": "Find what needs changing in a sentence, agree on a better version and explain the change.",
+    "setup": "Show one sentence at a time. Pairs use paper to write a correction. Leave the suggested answer hidden until they have had a go.",
+    "steps": [
+      [
+        "Find a clue",
+        "Read the sentence and ask what they notice. Point to a time word or a subject if they need a place to start."
+      ],
+      [
+        "Compare corrections",
+        "Pairs write a new version and explain their choice. Reveal the suggested answer and compare."
+      ],
+      [
+        "Try a few more",
+        "Work through the next sentences. Join another pair to discuss before revealing. If there is time, write a simple puzzle for the other pair."
+      ],
+      [
+        "Explain one change",
+        "Each student explains a correction to a partner. Take two examples and repeat the useful sentence pattern."
+      ]
+    ],
+    "frames": "“We changed ___ to ___ because ___.” · “The clue is ___.”",
+    "skills": "Reading carefully · Correcting sentences · Explaining a change",
+    "support": "Offer two corrected versions to choose from.",
+    "stretch": "Find another correct way to express the same meaning.",
+    "id": 19,
+    "slug": "sentence-detective",
+    "mode": "detective",
+    "rounds": [
+      {
+        "title": "Yesterday I go to the park.",
+        "answer": "Yesterday I went to the park. “Yesterday” points to a finished past action."
+      },
+      {
+        "title": "She don’t like bananas.",
+        "answer": "She doesn’t like bananas. Use “doesn’t” with he, she or it in the present simple."
+      },
+      {
+        "title": "Where you live?",
+        "answer": "Where do you live? This present simple question needs “do” before “you”."
+      },
+      {
+        "title": "There is three books on the desk.",
+        "answer": "There are three books on the desk. Use “are” with a plural noun."
+      },
+      {
+        "title": "My bag is more heavy than yours.",
+        "answer": "My bag is heavier than yours. We usually say “heavier” when comparing how heavy two things are."
+      }
+    ],
+    "note": "They don’t need the name of the grammar rule. Ask what changed and why it makes sense."
+  },
+  {
+    "title": "Word Connections",
+    "kind": "Vocabulary",
+    "group": "Groups of 3–4",
+    "prep": "No materials",
+    "purpose": "Link one word to the next and explain each connection. See where the group ends up.",
+    "setup": "Show a starting word. Groups go round in order. Use the shared list for a class example, or let groups build their chains aloud.",
+    "steps": [
+      [
+        "Show a connection",
+        "Try “Rain → umbrella, because it keeps you dry.” Make clear that they need a reason for the link."
+      ],
+      [
+        "Build a chain",
+        "Each person adds a word connected to the last one and explains why. Go round at least twice. Help each other when needed."
+      ],
+      [
+        "Aim somewhere",
+        "Start again and reveal the target word. Try to reach it in five links, explaining each step. Compare possible routes."
+      ],
+      [
+        "Share an unusual link",
+        "Groups share a connection that needed explaining. Partners retell part of their chain using because."
+      ]
+    ],
+    "frames": "“___ makes me think of ___ because ___.” · “They both ___.”",
+    "skills": "Making word associations · Giving reasons · Following another speaker’s idea",
+    "support": "Offer two possible words if someone gets stuck.",
+    "stretch": "Reach the target in exactly five links without repeating a word.",
+    "id": 20,
+    "slug": "word-connections",
+    "mode": "connect",
+    "rounds": [
+      {
+        "title": "Rain",
+        "answer": "Target: music"
+      },
+      {
+        "title": "School",
+        "answer": "Target: ocean"
+      },
+      {
+        "title": "Breakfast",
+        "answer": "Target: adventure"
+      },
+      {
+        "title": "A bicycle",
+        "answer": "Target: a movie"
+      }
+    ],
+    "note": "There can be several good connections. Ask them to make the link clear to someone outside the group."
+  }
+]

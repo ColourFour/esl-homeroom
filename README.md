@@ -1,23 +1,28 @@
-# Morning English
+# Homeroom English
 
-20 interactive ESL homeroom activities, a menu and a teacher tutorial. A static website: no installation, build step, student accounts or external dependencies.
+Twenty short English activities for the start of the school day. Each has prompts for the board, a timer and a teacher guide. The site also includes a menu and a short tutorial.
 
-## Run
-Open `docs/index.html` in a browser, or serve `docs/` with any static web server. Each activity has its own URL under `activities/`.
+Live site: https://colourfour.github.io/esl-homeroom/
 
-## GitHub Pages
-In repository Settings → Pages, select **Deploy from a branch**, then **main** and **/docs**, and save. The `.nojekyll` file keeps the site as plain static files.
+## Use it
 
-Official instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Open `docs/index.html` in a browser, or serve `docs/` with a static web server. Students work together in the room; the controls are for one shared screen. There are no student accounts, external dependencies or saved responses.
 
-## Classroom features
-- 20-minute timer with lesson phases, pause/reset and 1- or 3-minute rounds
-- Teacher/classroom view; clear language frames and complete teacher plans
-- Voting, accessible ranking buttons, secret cards, drawing pad, editable statements, story prompts, vocabulary lists and more
-- Several prompts per activity; eight new activities extend the original twelve
-- Responsive layout, keyboard-operable controls and reduced-motion support
+## Edit the content
 
-The page is a shared classroom tool, not a networked multiplayer service. Vote totals are entered on one device. Answers and timers exist only in the current page and clear on navigation or refresh. Secret cards require the guesser/drawer to face away before revealing.
+- `content/activities.json` contains the activity descriptions, teacher notes and classroom prompts.
+- `build.py` contains the shared page layouts, menu and tutorial.
+- `docs/assets/style.css` controls the presentation.
+- `docs/assets/app.js` runs the classroom tools.
 
-## Edit
-Pages are in `docs/activities/`. Each includes readable teacher instructions and an embedded `activity-data` JSON block used by the interactive panel. Shared styles and behaviour are in `docs/assets/`. Change both the instructions and JSON when revising an activity.
+After changing the content or layouts, run `python3 build.py`. This rebuilds the HTML pages in `docs/`. The builder uses only the Python standard library. Keep the activity slugs unchanged to preserve existing links.
+
+## Publish
+
+GitHub Pages serves `docs/` from `main`. Pushing a change to that branch updates the site. The `.nojekyll` file keeps the site as plain static files.
+
+## Classroom controls
+
+The timer can run for 20, 3 or 1 minute. “Put it on the board” hides the teacher notes and enlarges the task. Other tools include voting, ranking, secret cards, drawing, word lists and story notes.
+
+Votes are entered on one device. Changing a prompt clears its answers; refreshing or leaving the page clears the timer too. Nothing is sent to a server. For secret-card activities, the guesser or drawer must face away before the card is shown.
