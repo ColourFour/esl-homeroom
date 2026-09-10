@@ -23,6 +23,6 @@ GitHub Pages serves `docs/` from `main`. Pushing a change to that branch updates
 
 ## Classroom controls
 
-The timer can run for 20, 3 or 1 minute. “Put it on the board” hides the teacher notes and enlarges the task. Other tools include voting, ranking, secret cards, drawing, word lists and story notes.
+The timer can run for 20, 3 or 1 minute, or 30 seconds. “Focus view” enlarges the task and hides navigation. Each activity starts with three student steps; the teacher guide opens below the board. A Timer link jumps to the shared timer. Each page has controls suited to the task: debate replies, question cards, picture references, speaking turns, word chains, editable statements and more. The pictures are bundled locally; see IMAGE-CREDITS.md for sources and generation prompts.
 
-Votes are entered on one device. Changing a prompt clears its answers; refreshing or leaving the page clears the timer too. Nothing is sent to a server. For secret-card activities, the guesser or drawer must face away before the card is shown.
+Votes are entered on one device: type each total or use +1. Undo restores the last count change. Changing a prompt clears its answers; refreshing or leaving the page clears the timer too. Nothing is sent to a server. For secret-card activities, the guesser or drawer must face away before the card is shown.

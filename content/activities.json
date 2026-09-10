@@ -61,7 +61,15 @@
         ]
       }
     ],
-    "note": "If everyone picks the same side, ask them to make the best case for the other one."
+    "note": "If everyone picks the same side, ask them to make the best case for the other one.",
+    "board": {
+      "steps": [
+        "Choose a side",
+        "Give your reason",
+        "Try to change a mind"
+      ],
+      "goal": "Tell your partner what you would actually do with your choice."
+    }
   },
   {
     "title": "Rank It",
@@ -130,7 +138,15 @@
         ]
       }
     ],
-    "note": "There is no answer sheet here. A sensible reason is enough, even if another group disagrees."
+    "note": "There is no answer sheet here. A sensible reason is enough, even if another group disagrees.",
+    "board": {
+      "steps": [
+        "Rank on your own",
+        "Agree as a group",
+        "Defend first and last"
+      ],
+      "goal": "You get one shared list. Everyone needs to explain a choice."
+    }
   },
   {
     "title": "Find Someone Who…",
@@ -173,6 +189,28 @@
           "Enjoys drawing",
           "Has a pet",
           "Likes waking up early"
+        ],
+        "questions": [
+          [
+            "Do you like spicy food?",
+            "What is the spiciest thing you eat?"
+          ],
+          [
+            "Can you swim?",
+            "Where do you like to swim?"
+          ],
+          [
+            "Do you enjoy drawing?",
+            "What do you draw?"
+          ],
+          [
+            "Do you have a pet?",
+            "What is it like?"
+          ],
+          [
+            "Do you like waking up early?",
+            "What do you do first?"
+          ]
         ]
       },
       {
@@ -183,20 +221,72 @@
           "Plays a sport",
           "Likes puzzles",
           "Can ride a bicycle"
+        ],
+        "questions": [
+          [
+            "Do you like rainy days?",
+            "What do you do when it rains?"
+          ],
+          [
+            "Do you enjoy cooking?",
+            "What can you make?"
+          ],
+          [
+            "Do you play a sport?",
+            "Who do you play with?"
+          ],
+          [
+            "Do you like puzzles?",
+            "What kind of puzzles?"
+          ],
+          [
+            "Can you ride a bicycle?",
+            "Where do you like to ride?"
+          ]
         ]
       },
       {
-        "title": "Ask about favourites",
+        "title": "Find someone with the same favourite.",
         "items": [
           "Likes the same colour as you",
           "Enjoys the same food as you",
           "Likes the same season as you",
           "Enjoys the same school subject as you",
           "Likes the same kind of music as you"
+        ],
+        "questions": [
+          [
+            "What is your favourite colour?",
+            "Do we have the same favourite?"
+          ],
+          [
+            "What is your favourite food?",
+            "When do you usually eat it?"
+          ],
+          [
+            "Which season do you like best?",
+            "What do you like doing then?"
+          ],
+          [
+            "Which school subject do you enjoy most?",
+            "What do you like about it?"
+          ],
+          [
+            "What kind of music do you like?",
+            "Can you recommend a song?"
+          ]
         ]
       }
     ],
-    "note": "Keep an ear out for students reading the prompt instead of asking a question. Model the question again and let them try."
+    "note": "Keep an ear out for students reading the prompt instead of asking a question. Model the question again and let them try.",
+    "board": {
+      "steps": [
+        "Choose a question",
+        "Ask someone new",
+        "Ask one more thing"
+      ],
+      "goal": "Find a different person for each question. Staying seated? Swap partners instead."
+    }
   },
   {
     "title": "Describe & Draw",
@@ -204,7 +294,7 @@
     "group": "Pairs",
     "prep": "Paper + pencils",
     "purpose": "One student describes a hidden picture. Their partner draws what they hear. Compare the results, then swap.",
-    "setup": "Pairs need paper and pencils. Let the describers read the secret scene while the drawers face away. Hide it before they turn back. The drawing pad is useful for a class example.",
+    "setup": "Pairs need paper and pencils. Let the describers study the secret picture while the drawers face away. Hide it before they turn back. The drawing pad is useful for a class example.",
     "steps": [
       [
         "Make the task clear",
@@ -233,18 +323,29 @@
     "rounds": [
       {
         "title": "Secret scene A",
-        "answer": "A house; a tree on the left; a cat on the roof; three flowers in front."
+        "answer": "A house; a tree on the left; a cat on the roof; three flowers in front.",
+        "scene": 0
       },
       {
         "title": "Secret scene B",
-        "answer": "A boat; a fish below it; a sun above it; a bird on the right."
+        "answer": "A boat; a fish below it; a sun above it; a bird on the right.",
+        "scene": 1
       },
       {
         "title": "Secret scene C",
-        "answer": "A robot in the middle; a hat on its head; a ball by its left foot; two stars above it."
+        "answer": "A robot in the middle; a hat on its head; a ball on the left of the picture; two stars above it.",
+        "scene": 2
       }
     ],
-    "note": "The drawing doesn’t have to be good. If the cat ends up under the house, work out which instruction led to it."
+    "note": "The drawing doesn’t have to be good. If the cat ends up under the house, work out which instruction led to it.",
+    "board": {
+      "steps": [
+        "Partner B looks away",
+        "A studies the picture",
+        "Hide it, then describe"
+      ],
+      "goal": "A describes; B draws on paper. No pointing. Compare, then swap roles."
+    }
   },
   {
     "title": "Mystery Object",
@@ -252,7 +353,7 @@
     "group": "Groups of 3–4",
     "prep": "One small object",
     "purpose": "Give an ordinary object a new purpose. Groups decide what it does and explain how someone would use it.",
-    "setup": "Bring a small object, such as a binder clip or an empty box. If you don’t have one, use the name on the page. The extra challenge gives students a particular person to design for.",
+    "setup": "Show the object picture. Bring a real one if you have it. The optional situation gives students a problem to design for.",
     "steps": [
       [
         "Describe the object",
@@ -281,22 +382,34 @@
     "rounds": [
       {
         "title": "A binder clip",
-        "answer": "Find a new use for it on a camping trip."
+        "answer": "Find a new use for it on a camping trip.",
+        "object": 0
       },
       {
         "title": "A kitchen whisk",
-        "answer": "Give it a use outside the kitchen."
+        "answer": "Give it a use outside the kitchen.",
+        "object": 1
       },
       {
         "title": "A rubber band",
-        "answer": "Use it to solve a small problem at school."
+        "answer": "Use it to solve a small problem at school.",
+        "object": 2
       },
       {
         "title": "An empty box",
-        "answer": "Make something useful for a crowded desk."
+        "answer": "Make something useful for a crowded desk.",
+        "object": 3
       }
     ],
-    "note": "Once someone says the real name of the object, move straight to inventing another use for it."
+    "note": "Once someone says the real name of the object, move straight to inventing another use for it.",
+    "board": {
+      "steps": [
+        "Look at the object",
+        "Invent another use",
+        "Explain how it works"
+      ],
+      "goal": "Give an ordinary object a useful new job. Convince another pair it could work."
+    }
   },
   {
     "title": "Two Truths and a Lie",
@@ -356,7 +469,15 @@
         ]
       }
     ],
-    "note": "Don’t let it become three statements followed by an instant guess. The questions are the useful part."
+    "note": "Don’t let it become three statements followed by an instant guess. The questions are the useful part.",
+    "board": {
+      "steps": [
+        "Write three statements",
+        "Ask follow-up questions",
+        "Pick the invented one"
+      ],
+      "goal": "Two true, one made up. The speaker keeps the answer until everyone has guessed."
+    }
   },
   {
     "title": "Taboo Lite",
@@ -440,7 +561,15 @@
         ]
       }
     ],
-    "note": "If the word itself is unfamiliar, change it. The point is finding another way to say something."
+    "note": "If the word itself is unfamiliar, change it. The point is finding another way to say something.",
+    "board": {
+      "steps": [
+        "Guessers look away",
+        "Give clues in English",
+        "Guess before time runs out"
+      ],
+      "goal": "One minute each. No gestures, translations or parts of the word."
+    }
   },
   {
     "title": "Picture Story",
@@ -508,7 +637,15 @@
         ]
       }
     ],
-    "note": "Let the story be a bit ridiculous. They still need to make the connection clear to the listener."
+    "note": "Let the story be a bit ridiculous. They still need to make the connection clear to the listener.",
+    "board": {
+      "steps": [
+        "Link all three pictures",
+        "Give the story a problem",
+        "Tell it together"
+      ],
+      "goal": "A one-minute story. Everyone says at least one line."
+    }
   },
   {
     "title": "Sell Me This",
@@ -516,7 +653,7 @@
     "group": "Groups of 3–4",
     "prep": "One object per group",
     "purpose": "Make a 30-second advertisement for something ordinary. Give people a reason to want it.",
-    "setup": "Give each group a pencil, spoon, sock or notebook. They can use the object named on screen if you don’t have one. The extra customer is there if they need another angle.",
+    "setup": "Give each group a pencil, spoon, sock or notebook, or use the object named on screen. Read the customer brief before students decide what to sell.",
     "steps": [
       [
         "Show them the idea",
@@ -560,7 +697,15 @@
         "answer": "Your customer always forgets what they need to do."
       }
     ],
-    "note": "A pencil is enough. The interest comes from what they claim it can do."
+    "note": "A pencil is enough. The interest comes from what they claim it can do.",
+    "board": {
+      "steps": [
+        "Meet your customer",
+        "Choose two selling points",
+        "Make a 30-second advert"
+      ],
+      "goal": "Give everyone a speaking part. Your audience gets one question."
+    }
   },
   {
     "title": "Mini Debate",
@@ -624,7 +769,15 @@
         ]
       }
     ],
-    "note": "One clear reason is better than a long list they can’t explain. Ask for an example."
+    "note": "One clear reason is better than a long list they can’t explain. Ask for an example.",
+    "board": {
+      "steps": [
+        "Take a side",
+        "Give a reason + example",
+        "Answer the other side"
+      ],
+      "goal": "Pairs get a minute to prepare. Listen carefully enough to reply to a real point."
+    }
   },
   {
     "title": "Guess My Word",
@@ -632,7 +785,7 @@
     "group": "Groups of 3–4",
     "prep": "Screen or word cards",
     "purpose": "Ask yes/no questions to work out a hidden word. Start broad, then narrow it down.",
-    "setup": "Turn the guesser away while the rest of the group reads the word. Hide it before they turn back. Use paper cards if several groups are playing at once.",
+    "setup": "Choose one clue-giver. The rest of the class faces away while that person reads the word. Hide it before the class turns back. For separate groups, use paper cards with different words.",
     "steps": [
       [
         "Model a few questions",
@@ -640,11 +793,11 @@
       ],
       [
         "Play and swap",
-        "Give each guesser up to ten questions or two minutes, then a final guess. Reveal the word and change the guesser."
+        "The group shares up to ten yes/no questions or two minutes, then makes a final guess. Reveal the word and choose a new clue-giver."
       ],
       [
         "Keep everyone involved",
-        "Continue until everyone has had a turn. Ask the group to notice which questions helped most. Add familiar words on paper if needed."
+        "Go round the group so everyone asks a question. Change the clue-giver between rounds. Add familiar words on paper if needed."
       ],
       [
         "Keep the useful questions",
@@ -684,7 +837,15 @@
         "title": "Umbrella"
       }
     ],
-    "note": "If they keep guessing individual words, stop briefly and model a question that rules out a whole category."
+    "note": "If they keep guessing individual words, stop briefly and model a question that rules out a whole category.",
+    "board": {
+      "steps": [
+        "One person sees the word",
+        "Ask yes/no questions",
+        "Make a final guess"
+      ],
+      "goal": "Ten questions for the group. Start broad, then narrow it down."
+    }
   },
   {
     "title": "Odd One Out",
@@ -750,7 +911,15 @@
         "answer": "Carrot is usually grouped as a vegetable; banana is normally peeled before eating; grapes often grow in bunches. Explain your rule."
       }
     ],
-    "note": "Wait before revealing the examples. Once there’s an answer on the board, they may stop looking for their own."
+    "note": "Wait before revealing the examples. Once there’s an answer on the board, they may stop looking for their own.",
+    "board": {
+      "steps": [
+        "Choose one",
+        "Explain your rule",
+        "Find a different answer"
+      ],
+      "goal": "There can be several good answers. The reason has to fit the words."
+    }
   },
   {
     "title": "One-Minute Expert",
@@ -818,7 +987,15 @@
         ]
       }
     ],
-    "note": "Allow pauses. The aim is to get a thought across without writing every sentence first."
+    "note": "Allow pauses. The aim is to get a thought across without writing every sentence first.",
+    "board": {
+      "steps": [
+        "Choose three keywords",
+        "Speak for one minute",
+        "Take a question"
+      ],
+      "goal": "You do not need to know everything. Explain something you know to your partner."
+    }
   },
   {
     "title": "Improve This",
@@ -866,7 +1043,15 @@
         "answer": "Your plan needs one quiet space and one active space."
       }
     ],
-    "note": "Push beyond “make it better”. What exactly would they change?"
+    "note": "Push beyond “make it better”. What exactly would they change?",
+    "board": {
+      "steps": [
+        "Spot the problem",
+        "Agree three changes",
+        "Explain who they help"
+      ],
+      "goal": "Your changes have to be practical enough for another group to accept."
+    }
   },
   {
     "title": "Morning Poll",
@@ -874,19 +1059,19 @@
     "group": "Class → small groups",
     "prep": "No materials",
     "purpose": "Take a quick class vote, discuss the choices, then use the results to practise comparisons.",
-    "setup": "Read the question and count a show of hands. Enter the totals using the vote buttons. Students can also move to different parts of the room to choose.",
+    "setup": "Read the question and check the options. Students predict the most popular answer before voting. Type the totals into the boxes, or use +1 to count a show of hands. The chart updates as you enter votes.",
     "steps": [
       [
-        "Take the vote",
-        "Check that everyone understands the options. Count one vote per person and leave the results hidden for now."
+        "Make a prediction",
+        "Check that everyone understands the options. Partners predict the most popular answer and explain their own preference."
       ],
       [
-        "Explain the choices",
-        "Partners explain their votes and ask each other a question. Join another pair and compare reasons."
+        "Vote and explain",
+        "Count one vote per person and enter the totals. Partners explain their votes and ask each other a question. Join another pair and compare reasons."
       ],
       [
-        "Look at the results",
-        "Show the totals. Groups describe what was most and least popular and suggest why. Ask whether the result surprised them."
+        "Read the results",
+        "Use the chart to describe what was most and least popular. Groups suggest why and compare the result with their predictions."
       ],
       [
         "Report one thing",
@@ -929,7 +1114,15 @@
         ]
       }
     ],
-    "note": "The vote only takes a minute. Leave most of the time for the reasons behind it."
+    "note": "The vote only takes a minute. Leave most of the time for the reasons behind it.",
+    "board": {
+      "steps": [
+        "Predict the result",
+        "Take a show of hands",
+        "Explain the pattern"
+      ],
+      "goal": "Discuss first. The teacher records the class vote on this screen."
+    }
   },
   {
     "title": "Story Chain",
@@ -977,7 +1170,15 @@
         "answer": "The driver is looking for someone in the queue."
       }
     ],
-    "note": "Watch for one confident student taking over the plot. Give everyone a turn, even if they only add a short sentence."
+    "note": "Watch for one confident student taking over the plot. Give everyone a turn, even if they only add a short sentence.",
+    "board": {
+      "steps": [
+        "Read the opening",
+        "Add one sentence each",
+        "Bring it to an ending"
+      ],
+      "goal": "Use the last person’s idea. After two rounds of the group, find an ending."
+    }
   },
   {
     "title": "Speed Chat",
@@ -1033,7 +1234,15 @@
         "answer": "Can you give an example?"
       }
     ],
-    "note": "If answers stop after one word, model a follow-up. “Why?” is often enough."
+    "note": "If answers stop after one word, model a follow-up. “Why?” is often enough.",
+    "board": {
+      "steps": [
+        "A answers, B listens",
+        "B asks a follow-up",
+        "Swap after a minute"
+      ],
+      "goal": "Use names when you report back: “I found out that…” You may pass on a personal question."
+    }
   },
   {
     "title": "Category Sprint",
@@ -1085,7 +1294,15 @@
         "answer": "Choose three words and say why you need those things."
       }
     ],
-    "note": "A long list is fine, but check that they can actually use the words. Spend time on two or three good examples."
+    "note": "A long list is fine, but check that they can actually use the words. Spend time on two or three good examples.",
+    "board": {
+      "steps": [
+        "List words for a minute",
+        "Check for repeats",
+        "Explain three choices"
+      ],
+      "goal": "Teams can work on paper. Use the shared board to compare answers afterwards."
+    }
   },
   {
     "title": "Sentence Detective",
@@ -1122,26 +1339,39 @@
     "rounds": [
       {
         "title": "Yesterday I go to the park.",
-        "answer": "Yesterday I went to the park. “Yesterday” points to a finished past action."
+        "answer": "Yesterday I went to the park. “Yesterday” points to a finished past action.",
+        "hint": "“Yesterday” tells you when it happened. Does the action word match?"
       },
       {
         "title": "She don’t like bananas.",
-        "answer": "She doesn’t like bananas. Use “doesn’t” with he, she or it in the present simple."
+        "answer": "She doesn’t like bananas. Use “doesn’t” with he, she or it in the present simple.",
+        "hint": "Look at “she”. Would you use the same helping verb with “I”?"
       },
       {
         "title": "Where you live?",
-        "answer": "Where do you live? This present simple question needs “do” before “you”."
+        "answer": "Where do you live? This present simple question needs “do” before “you”.",
+        "hint": "Try starting the answer: “I live…” What helping word does the question need?"
       },
       {
         "title": "There is three books on the desk.",
-        "answer": "There are three books on the desk. Use “are” with a plural noun."
+        "answer": "There are three books on the desk. Use “are” with a plural noun.",
+        "hint": "Count the books. Is it one thing or more than one?"
       },
       {
         "title": "My bag is more heavy than yours.",
-        "answer": "My bag is heavier than yours. We usually say “heavier” when comparing how heavy two things are."
+        "answer": "My bag is heavier than yours. We usually say “heavier” when comparing how heavy two things are.",
+        "hint": "You are comparing two bags. Try changing the ending of “heavy”."
       }
     ],
-    "note": "They don’t need the name of the grammar rule. Ask what changed and why it makes sense."
+    "note": "They don’t need the name of the grammar rule. Ask what changed and why it makes sense.",
+    "board": {
+      "steps": [
+        "Find what needs changing",
+        "Rewrite the sentence",
+        "Explain the change"
+      ],
+      "goal": "Choose the part you want to investigate before looking at the suggested answer."
+    }
   },
   {
     "title": "Word Connections",
@@ -1161,7 +1391,7 @@
       ],
       [
         "Aim somewhere",
-        "Start again and reveal the target word. Try to reach it in five links, explaining each step. Compare possible routes."
+        "Start again and try to reach the target word shown on the board in five links. Explain each step and compare possible routes."
       ],
       [
         "Share an unusual link",
@@ -1193,6 +1423,14 @@
         "answer": "Target: a movie"
       }
     ],
-    "note": "There can be several good connections. Ask them to make the link clear to someone outside the group."
+    "note": "There can be several good connections. Ask them to make the link clear to someone outside the group.",
+    "board": {
+      "steps": [
+        "Start with this word",
+        "Add a related word",
+        "Explain every link"
+      ],
+      "goal": "Go round the group. Each new word must connect to the one immediately before it."
+    }
   }
 ]
