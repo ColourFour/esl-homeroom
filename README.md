@@ -6,7 +6,7 @@ Live site: https://colourfour.github.io/esl-homeroom/
 
 ## Use it
 
-Open `docs/index.html` in a browser, or serve `docs/` with a static web server. Students work together in the room; the controls are for one shared screen. There are no student accounts, external dependencies or saved responses.
+Open `docs/index.html` in a browser, or serve `docs/` with a static web server. Students work together in the room; the controls are for one shared screen. The activity pages have no student accounts, external dependencies or saved responses.
 
 ## Edit the content
 
@@ -26,3 +26,9 @@ GitHub Pages serves `docs/` from `main`. Pushing a change to that branch updates
 The timer can run for 20, 3 or 1 minute, or 30 seconds. “Focus view” enlarges the task and hides navigation. Each activity starts with three student steps; the teacher guide opens below the board. A Timer link jumps to the shared timer. Each page has controls suited to the task: debate replies, question cards, picture references, speaking turns, word chains, editable statements and more. The pictures are bundled locally; see IMAGE-CREDITS.md for sources and generation prompts.
 
 Votes are entered on one device: type each total or use +1. Undo restores the last count change. Changing a prompt clears its answers; refreshing or leaving the page clears the timer too. Nothing is sent to a server. For secret-card activities, the guesser or drawer must face away before the card is shown.
+
+## Jacket design competition
+
+The homepage links to `docs/jackets/`, a separate student entry page for the 2026 house jacket competition. Students upload one or two JPG/PNG/PDF files by 31 October 2026, with brooker@rdfzcygj.cn as an email backup. The entry form uses a separate upload service; existing activity tools remain browser-only. Student entries and artwork are private to the teacher during submissions. The private review page requires teacher authorization, even though its page shell is public. No teacher key or student files are in this repository. The house vote will take place after entries close.
+
+The homepage link and announcement are also in `build.py`, so rebuilding the activities preserves them. The builder leaves the separate jacket pages in place.
