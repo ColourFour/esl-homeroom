@@ -32,3 +32,11 @@ Votes are entered on one device: type each total or use +1. Undo restores the la
 The homepage links to `docs/jackets/`, a separate student entry page for the 2026 house jacket competition. Students upload one or two JPG/PNG/PDF files by 31 October 2026, with brooker@rdfzcygj.cn as an email backup. The entry form uses a separate upload service; existing activity tools remain browser-only. Student entries and artwork are private to the teacher during submissions. The private review page requires teacher authorization, even though its page shell is public. No teacher key or student files are in this repository. The house vote will take place after entries close.
 
 The homepage link and announcement are also in `build.py`, so rebuilding the activities preserves them. The builder leaves the separate jacket pages in place.
+
+### Jacket vote (November 2026)
+
+The jacket page now shows three shortlisted designs and accepts one final choice per single-use code. Voting closes automatically at 2026-11-03 16:00 UTC (end of 3 November in China). The original submissions and teacher access remain available at `docs/jackets/admin.html`; `docs/jackets/voting-admin.html` manages private totals, pause/resume, CSV results and additional code batches using the existing teacher key.
+
+The separate `taihang-vote` Edge Function validates hashed codes and calls a service-only transaction to record votes. Concurrent retries for the same choice return the same receipt. Codes and totals are never in the public repository; names, classes and original upload metadata are omitted from the public gallery. Gallery images are metadata-free derivatives of the three genuine submissions. The test entry, game screenshot and photo with no visible design are excluded. Distribute exactly one code per person; possession of a code is the voting credential.
+
+Validation: desktop/mobile browser review, artwork modal and ballot confirmation; live teacher-authentication checks; eight simultaneous same-code retries count once; changed-choice and invented-code rejection; closed/deadline enforcement. The synthetic test vote and code were removed before opening voting. Security advisor findings for vote tables are informational RLS-without-policy notices: the tables intentionally allow only the server service role.

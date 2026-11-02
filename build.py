@@ -8,7 +8,7 @@ activities = json.loads((ROOT / 'content/activities.json').read_text())
 
 
 def page(title, content, prefix='', data=None, page_type=''):
-    jacket_nav = '<a href="jackets/">Jacket competition</a>' if page_type == 'home' else ''
+    jacket_nav = '<a href="jackets/">Jacket vote</a>' if page_type == 'home' else ''
     photo_credit = ('<span class="photo-credit">Taihang Mountains: <a href="https://commons.wikimedia.org/wiki/File:Taihang_Mountains_%E5%A4%AA%E8%A1%8C%E5%B1%B1_-_panoramio.jpg">SIMPLE / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · resized and cropped for display</span>' if page_type == 'home' else '')
     document_title = 'Taihang House Activities' if title == 'Activities' else f'{esc(title)} | Taihang House Activities'
     embedded = '' if data is None else '<script id="activity-data" type="application/json">' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + '</script>'
@@ -54,7 +54,7 @@ filters = ''.join(f'<button class="filter" data-filter="{esc(c)}" aria-pressed="
 home = f'''<main id="main" class="home">
 <h1 class="visually-hidden">Taihang House Activities</h1>
 <figure class="mountain-banner"><img src="assets/taihang-mountains.jpg" width="2200" height="568" alt="Panoramic view of green ridges and steep cliffs in the Taihang Mountains" fetchpriority="high" decoding="async"></figure>
-<section class="jacket-callout" aria-labelledby="jacket-title"><div><p class="eyebrow">TAIHANG HOUSE</p><h2 id="jacket-title">Jacket design competition</h2><p>Design our next house jacket. Submit your front and back artwork by <strong>31 October 2026</strong>, then Taihang votes.</p></div><a class="button primary" href="jackets/">View the brief &amp; upload a design →</a></section>
+<section class="jacket-callout" aria-labelledby="jacket-title"><div><p class="eyebrow">TAIHANG HOUSE</p><h2 id="jacket-title">Choose our next house jacket</h2><p>Explore the three finalists and vote with your private code by <strong>3 November 2026, 11:59 pm China time</strong>.</p></div><a class="button primary" href="jackets/">Explore the designs &amp; vote →</a></section>
 <section id="collection" aria-labelledby="collection-title"><div class="section-heading"><h2 id="collection-title">Choose an activity</h2><button class="button secondary" id="surprise">Pick one for me</button></div><div class="filters" role="group" aria-label="Filter activities">{filters}</div><p class="result-count" id="result-count" role="status">20 activities</p><div class="activity-grid">{''.join(cards)}</div></section>
 <aside class="bottom-note"><strong>A couple of things to keep in mind</strong><p>Give them a moment to think before asking for an answer. Make sure everyone gets a turn. Help with a missing word when they need it, but keep the conversation moving.</p></aside>
 </main>'''
