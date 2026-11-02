@@ -35,10 +35,12 @@ The homepage link and announcement are also in `build.py`, so rebuilding the act
 
 ### Jacket vote (November 2026)
 
-The jacket page now shows three shortlisted designs and accepts one final choice per single-use code. Voting closes automatically at 2026-11-03 16:00 UTC (end of 3 November in China). The original submissions and teacher access remain available at `docs/jackets/admin.html`; `docs/jackets/voting-admin.html` manages private totals, pause/resume, CSV results and additional code batches using the existing teacher key.
+The jacket page now shows three shortlisted designs and accepts one final choice per single-use code. Voting closes automatically at 2026-11-13 16:00 UTC (end of November 13, in China). The original submissions and teacher access remain available at `docs/jackets/admin.html`; `docs/jackets/voting-admin.html` manages private totals, pause/resume, CSV results and additional code batches using the existing teacher key.
 
 The separate `taihang-vote` Edge Function validates hashed codes and calls a service-only transaction to record votes. Concurrent retries for the same choice return the same receipt. Codes and totals are never in the public repository; names, classes and original upload metadata are omitted from the public gallery. Gallery images are metadata-free derivatives of the three genuine submissions. The test entry, game screenshot and photo with no visible design are excluded. Distribute exactly one code per person; possession of a code is the voting credential.
 
 Validation: desktop/mobile browser review, artwork modal and ballot confirmation; live teacher-authentication checks; eight simultaneous same-code retries count once; changed-choice and invented-code rejection; closed/deadline enforcement. The synthetic test vote and code were removed before opening voting. Security advisor findings for vote tables are informational RLS-without-policy notices: the tables intentionally allow only the server service role.
 
 The voting gallery uses a fixed 01–03 order, sequential full-width collection spreads, artwork view switches and a sticky ballot shortcut. Visible teacher references use Mr. Rooker; the provided contact email remains unchanged.
+
+Desktop hero artwork cycles through all three finalists as a pausable GIF. The varsity color concept is its default gallery view. Interface spelling and date formatting use American English. Voting closes at the end of November 13, 2026, China time; the existing 200 codes remain valid.
