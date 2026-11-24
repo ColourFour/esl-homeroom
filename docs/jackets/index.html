@@ -1,11 +1,76 @@
-<!doctype html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Compare the Taihang jacket finalists and vote for your favorite by November 13."><meta name="referrer" content="no-referrer"><title>Taihang House · Choose our jacket</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="vote.css?v=20261102c"><script type="module" src="vote.js?v=20261102c"></script></head><body class="vote-page">
-<header class="top"><a class="wordmark" href="../index.html">TAIHANG <span>HOUSE</span></a><span class="edition">THE HOUSE VOTE · 2026</span></header>
-<main><section class="hero"><div class="hero-copy"><p class="eyebrow">TAIHANG HOUSE / THE FINAL THREE</p><h1>Made for<br><em>Taihang.</em></h1><p class="hero-description">Our house. Our colors. Our next jacket.<br>Three student designs. One house decision.</p><a class="button" href="#designs">Meet the finalists <span aria-hidden="true">↓</span></a><div class="hero-meta"><span>THE HOUSE VOTE · 2026</span><span>ENDS NOV 13 / 11:59 PM CHINA</span></div></div><div class="hero-art"><span class="hero-chinese" aria-hidden="true">太行</span><picture><source id="hero-motion-source" srcset="artwork/hero-finalists.gif" media="(min-width: 601px) and (prefers-reduced-motion: no-preference)"><img src="artwork/design-1-0.jpg" alt="Taihang jacket finalists: black jacket, navy wolf hoodie, and blue-and-white varsity color concept"></picture><button id="hero-pause" type="button" aria-pressed="false">Pause animation Ⅱ</button><span class="hero-stamp">DESIGNED BY US<br>CHOSEN BY US</span><span class="hero-art-caption">A HOUSE WE’RE PROUD TO WEAR.</span></div></section>
-<nav class="design-nav" aria-label="Explore the finalists"><a href="#design-1"><span>01</span> Jacket</a><a href="#design-2"><span>02</span> Hoodie</a><a href="#design-3"><span>03</span> Varsity</a><a href="#ballot" class="nav-vote">Cast your vote ↗</a></nav>
-<section class="vote-intro"><div><p class="eyebrow">THE SHORTLIST</p><h2>Find your fit.</h2></div><div><p>Explore each design in order. Switch between views, open the artwork and look at the details. Then choose the one you’d want to wear.</p><p class="quiet">One vote for every student and teacher. Use your private code from Mr. Rooker. Names and classes stay off the ballot. Final production details follow the vote.</p></div></section>
-<section id="designs" class="gallery-section" aria-label="Jacket finalists"><div id="gallery" class="gallery"></div></section>
-<section id="ballot" class="ballot"><div><p class="eyebrow">THE FINAL SAY IS YOURS</p><h2>Wear your<br>house pride.</h2><p id="vote-status" role="status">Checking voting…</p><p class="quiet">Results stay private while voting is open. Mr. Rooker will announce the outcome after voting closes. If there is a tie, we’ll hold a runoff.</p><p class="quiet">Need a code or having trouble?<br><a href="mailto:brooker@rdfzcygj.cn">brooker@rdfzcygj.cn</a></p></div><div><form id="vote-form"><fieldset id="vote-fields" disabled><p id="selection" aria-live="polite">Choose a design above to start.</p><label for="voting-code">Your voting code<input id="voting-code" name="code" required maxlength="40" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXXX-XXXXX-XXXXX-XXXXX" aria-describedby="code-help"></label><p id="code-help" class="quiet">Enter your own code. Each code records one final vote. Spaces and hyphens are optional.</p><button id="review-vote" type="submit">Review my vote ↗</button></fieldset><p id="vote-error" class="error" role="alert"></p></form><section id="vote-receipt" hidden aria-live="polite"><p class="eyebrow">VOTE RECEIVED</p><h2>Thank you,<br>Taihang.</h2><p id="receipt-choice"></p><p class="quiet">Your receipt</p><code id="vote-receipt-code"></code><p id="vote-receipt-time" class="quiet"></p><button id="save-vote-receipt" type="button">Save receipt</button></section></div></section>
-</main><aside id="selection-dock" hidden aria-label="Your selected design"><span id="dock-selection"></span><a href="#ballot">Go to vote ↗</a></aside><footer>TAIHANG HOUSE <span>Designed by the house. Chosen by the house.</span></footer>
-<dialog id="art-dialog"><div class="dialog-head"><h2 id="art-title">Design artwork</h2><button id="close-art" type="button" aria-label="Close artwork">Close ×</button></div><img id="large-art" alt=""><a id="open-art" target="_blank" rel="noopener">Open full image ↗</a></dialog>
-<dialog id="confirm-dialog"><p class="eyebrow">CHECK YOUR CHOICE</p><h2 id="confirm-choice"></h2><p>This is your final vote. Once it is recorded, your code cannot vote for another design.</p><p id="confirm-error" class="error" role="alert"></p><div class="confirm-actions"><button id="confirm-vote" type="button">Confirm my vote</button><button id="cancel-vote" class="secondary" type="button">Go back</button></div></dialog>
-<noscript><p class="error">Please enable JavaScript to choose a design and vote.</p></noscript></body></html>
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Taihang House jacket collection, 2026. Announcement and purchasing information.">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <title>Taihang House · Our jacket</title>
+  <link rel="stylesheet" href="announcement.css">
+  <script defer src="announcement-config.js"></script>
+  <script defer src="announcement.js"></script>
+</head>
+<body class="announcement-page">
+<header class="top"><span class="wordmark">TAIHANG <span>HOUSE</span></span><span class="edition">THE HOUSE COLLECTION · 2026</span></header>
+<!-- REVIEW_CONTROLS -->
+<main>
+  <section id="closed" class="closed" aria-labelledby="closed-title">
+    <span class="closed-watermark" aria-hidden="true">太行</span>
+    <div class="closed-copy">
+      <p class="eyebrow">TAIHANG HOUSE / THE HOUSE VOTE</p>
+      <h1 id="closed-title">Voting<br><em>closed.</em></h1>
+      <p class="hero-description">Thank you for taking part. The winning design will be announced at the Taihang House assembly on November 27.</p>
+      <div class="hero-meta"><span>VOTING ENDED NOVEMBER 13</span><span>ANNOUNCEMENT NOVEMBER 27, 2026</span></div>
+    </div>
+  </section>
+  <section id="revealed" hidden>
+    <section class="hero" aria-labelledby="winner-title">
+      <div class="hero-copy">
+        <p class="eyebrow" id="winner-eyebrow">TAIHANG HOUSE / THE WINNING DESIGN</p>
+        <h1 id="winner-title">Made for<br><em>Taihang.</em></h1>
+        <p class="winner-name" id="winner-name"></p>
+        <p class="hero-description" id="winner-description"></p>
+        <a class="button" href="#ordering">Purchasing information <span aria-hidden="true">↓</span></a>
+        <div class="hero-meta"><span id="design-label"></span><span>COLLECTION 2026</span></div>
+      </div>
+      <div class="hero-art">
+        <span class="hero-chinese" aria-hidden="true">太行</span>
+        <img id="hero-image" alt="" hidden>
+        <div id="hero-placeholder" class="art-placeholder">Winning artwork<br><small>Pending confirmation</small></div>
+        <span class="hero-stamp">DESIGNED BY US<br>CHOSEN BY US</span>
+        <span class="hero-art-caption">A HOUSE WE’RE PROUD TO WEAR.</span>
+      </div>
+    </section>
+    <nav class="design-nav" aria-label="Page sections"><a href="#artwork">The design</a><a href="#ordering">Purchasing information</a></nav>
+    <section class="design-spread" id="artwork" aria-labelledby="design-title">
+      <div class="design-info">
+        <p class="eyebrow" id="art-eyebrow">THE DESIGN STUDIO</p>
+        <span id="jersey-number" class="jersey-number" aria-hidden="true">TH</span>
+        <h2 id="design-title">Our jacket.</h2>
+        <p id="design-note">The confirmed design will appear here.</p>
+        <p class="quiet">Student design artwork. Final production specifications are subject to the approved purchasing information.</p>
+      </div>
+      <div class="artwork">
+        <div class="stage-top"><span>THE DESIGN STUDIO</span><span>COLLECTION 2026</span></div>
+        <div id="stage-tabs" class="stage-tabs" role="group" aria-label="Artwork views" hidden></div>
+        <button id="art-button" class="art-button" type="button" hidden><img id="design-image" alt=""><span>View full artwork <span aria-hidden="true">↗</span></span></button>
+        <div id="art-placeholder" class="art-placeholder">Confirmed artwork<br><small>Not yet selected</small></div>
+        <div class="stage-bottom"><span>TAIHANG HOUSE</span><span>DESIGNED BY THE HOUSE</span></div>
+      </div>
+    </section>
+    <section class="ordering" id="ordering" aria-labelledby="order-title">
+      <div class="order-intro"><p class="eyebrow">THE HOUSE COLLECTION</p><h2 id="order-title">Wear your<br>house pride.</h2><p id="order-status" role="status">Purchasing details will be shared once approved.</p><p class="quiet">This page provides information only. No orders or payments are collected here.</p></div>
+      <div class="order-panel" id="order-panel" hidden>
+        <dl class="order-facts"><div><dt>Price</dt><dd id="price"></dd></div><div><dt>Available sizes</dt><dd id="sizes"></dd></div><div><dt>Order deadline</dt><dd id="order-deadline"></dd></div></dl>
+        <h3>How to purchase</h3><ol id="instructions"></ol>
+      </div>
+      <div class="order-panel pending-panel" id="pending-panel"><p class="eyebrow">PURCHASING INFORMATION</p><h3>Details coming soon.</h3><p>Price, sizes, deadline and ordering instructions will be provided together once they are confirmed.</p></div>
+    </section>
+  </section>
+</main>
+<footer>TAIHANG HOUSE <span>Designed by the house. Chosen by the house.</span></footer>
+<dialog id="art-dialog" aria-labelledby="art-title"><div class="dialog-head"><h2 id="art-title">Design artwork</h2><button id="close-art" type="button" aria-label="Close artwork">Close ×</button></div><img id="large-art" alt=""><a id="open-art" target="_blank" rel="noopener noreferrer">Open original artwork ↗</a></dialog>
+<noscript><p class="noscript">JavaScript is required to show an approved announcement. Until then, voting remains closed on this page.</p></noscript>
+</body></html>
